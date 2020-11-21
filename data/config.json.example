@@ -1,0 +1,26 @@
+{
+  "iserv": {
+    "url": "https://yourschool.com",
+    "username": "user.name",
+    "password": "pwd",
+    "fake": false
+  },
+  "plan": {
+    "defaultClass": "9f",
+    "defaultDay": 2,
+    "day1URL": "/iserv/plan/show/raw/01-Vertreter Schüler heute/subst_001.htm",
+    "day2URL": "/iserv/plan/show/raw/02-Vertreter Schüler morgen/subst_002.htm"
+  },
+  "autoPlan": {
+    "channel": 772919166809145385,
+    "class": "9c",
+    "day": 2,
+    "interval": 5
+  },
+  "autoTests": {
+    "channel": 772919135121702953,
+    "interval": 30
+  },
+  "token": "yourtoken",
+  "languages": ["de"]
+}
