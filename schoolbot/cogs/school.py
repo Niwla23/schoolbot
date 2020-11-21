@@ -39,12 +39,9 @@ class SchoolCog(commands.Cog):
 
         if day == 1:
             url = config["plan"]["day1URL"]
-            print("hi1")
         elif day == 2:
             url = config["plan"]["day2URL"]
-            print("hi2")
         else:
-            print("hi3")
             return _("Day must be either 1 or 2")
         plan, date, week = iserv.get_untis_substitution_plan(
             url)
