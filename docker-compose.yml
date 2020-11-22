@@ -5,3 +5,9 @@ services:
     restart: always
     volumes:
       - ./data:/usr/src/app/data
+
+  mongo:
+    restart: always
+    image: mongo
+    volumes:
+      - ./data/mongo:/data/db
