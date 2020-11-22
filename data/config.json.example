@@ -21,6 +21,7 @@
     "channel": 772919135121702953,
     "interval": 30
   },
+  "mongodb": "mongodb://127.0.0.1:27017",
   "token": "yourtoken",
   "languages": ["de"]
 }
