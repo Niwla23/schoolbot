@@ -99,7 +99,8 @@ class SchoolCog(commands.Cog):
                 time = test["time"]
                 time_emoji = time_to_emoji(time)
                 course = test["class"]
-                text = f"> **:pencil: {_('New test announced!')} :pencil:**\n" \
+                localized_announce = _('New test announced!')
+                text = f"> **:pencil: {localized_announce} :pencil:**\n" \
                        f"> :abc: {subject}\n" \
                        f"> :calendar: {date}\n" \
                        f"> {time_emoji} {time}\n" \

@@ -1,64 +1,74 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR ORGANIZATION
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-21 19:45+0100\n"
+"POT-Creation-Date: 2020-11-22 00:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
 
-#: cogs/school.py:46
+#: cogs/school.py:52
 msgid ":newspaper: **Substitution Plan**   |   "
-msgstr ""
+msgstr ":newspaper: **Vertretungsplan**   |   "
 
 #: cogs/school.py:31
 msgid ""
 ":newspaper: **Tests**\n"
 "\n"
 msgstr ""
+":newspaper: **Klassenarbeiten**\n"
+"\n"
 
 #: cogs/errors.py:23
 msgid "Command can not be used on this server"
-msgstr ""
+msgstr "Dieser Befehl kann nicht auf diesem Server genutzt werden."
+
+#: cogs/school.py:48
+msgid "Day must be either 1 or 2"
+msgstr "'day' muss 1 oder 2 sein"
 
 #: cogs/system.py:31
 #, python-brace-format
 msgid "Logging into iserv took {seconds}.{microseconds} seconds."
 msgstr ""
+"Verbinden und anmelden an Iserv hat {seconds},{microseconds} Sekunden "
+"gedauert."
 
 #: cogs/system.py:22
 msgid "Pong!"
-msgstr ""
+msgstr "Pong!"
 
 #: cogs/errors.py:45
 msgid "an error occurred"
-msgstr ""
+msgstr "Ein Fehler ist aufgetreten"
 
 #: cogs/errors.py:26
 msgid "command can not be used in DMs"
-msgstr ""
+msgstr "Dieser Befehl kann nicht in DMs genutzt werden."
 
 #: cogs/errors.py:30
 #, python-brace-format
 msgid "the argument {0} is missing"
-msgstr ""
+msgstr "Das Argument {0} fehlt"
 
 #: cogs/errors.py:41
 #, python-brace-format
 msgid "the argument {0} must be of type {1}"
-msgstr ""
+msgstr "Das Argument {0} muss den Typ {1} haben"
 
 #: cogs/errors.py:34 cogs/errors.py:38
 #, python-brace-format
 msgid "you are missing these permissions: {0}"
-msgstr ""
+msgstr "Dir fehlen diese Rechte: {0}"
+
+#~ msgid "New test announced!"
+#~ msgstr "Neue Klassenarbeit angekündigt!"
